@@ -7,7 +7,7 @@ include_once 'features/header.php'; // Include header.php
 
 // Cek jika pengguna belum login, redirect ke login.php
 if (!isset($_SESSION['username'])) {
-  header('Location: '$base_url' . '/menu-a/login.php');
+  header('Location: ../menu-a/login.php');
   exit;
 }
 ?>
